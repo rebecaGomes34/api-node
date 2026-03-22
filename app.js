@@ -61,8 +61,6 @@ app.put('/produtos/:id', (req, res) => {
     });
 });
 
-
-// 🔹 DELETE ⭐ (DESAFIO)
 app.delete('/produtos/:id', (req, res) => {
     const { id } = req.params;
 
@@ -74,7 +72,6 @@ app.delete('/produtos/:id', (req, res) => {
 });
 
 
-// iniciar servidor
 app.listen(3000, () => {
     console.log('Servidor rodando na porta 3000');
 });
